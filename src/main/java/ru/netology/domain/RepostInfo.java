@@ -1,6 +1,6 @@
 package ru.netology.domain;
 
-public class ButtonRepostObject {
+public class RepostInfo {
     private int idUser;
     private boolean RepostButton;
 
