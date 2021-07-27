@@ -1,9 +1,16 @@
 package ru.netology.domain;
 
-public class LikesInfo {
-    private int number;
-    private int idUser;
-    private boolean likeButton;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
-    // + get/set на все поля
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class LikesInfo {
+    private int count;
+    private int userLike;
+    private int canLike;
+    private int canPublish;
+
 }
